@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RootViewController.m */; };
+		CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D22A133716280042C1F2 /* FDCurlViewControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* FDCatalog_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCatalog_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CD05D229133716280042C1F2 /* FDCurlViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCurlViewControl.h; sourceTree = "<group>"; };
+		CD05D22A133716280042C1F2 /* FDCurlViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCurlViewControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD05D1EB133716280042C1F2 /* FDCurlViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				CD05D229133716280042C1F2 /* FDCurlViewControl.h */,
+				CD05D22A133716280042C1F2 /* FDCurlViewControl.m */,
+			);
+			name = FDCurlViewControl;
+			path = lib/FDCurlViewControl;
+			sourceTree = SOURCE_ROOT;
+		};
 		CDF2571913333EBC00E2518C /* Speech Bubble */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 		CDF2571B13333EC500E2518C /* Curl View */ = {
 			isa = PBXGroup;
 			children = (
+				CD05D1EB133716280042C1F2 /* FDCurlViewControl */,
 			);
 			name = "Curl View";
 			sourceTree = "<group>";
@@ -179,6 +193,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */,
+				CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

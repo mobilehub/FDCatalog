@@ -1,0 +1,3 @@
+[submodule "lib/FDCurlViewControl"]
+	path = lib/FDCurlViewControl
+	url = git@git.future.prod.f2.com.au:github/fdcurlviewcontrol.git
