@@ -16,6 +16,9 @@
 		CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D22A133716280042C1F2 /* FDCurlViewControl.m */; };
 		CD05D266133717260042C1F2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD05D264133717260042C1F2 /* LICENSE */; };
 		CD05D267133717260042C1F2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CD05D265133717260042C1F2 /* README */; };
+		CD05D26A133717D20042C1F2 /* CurlMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D269133717D20042C1F2 /* CurlMapViewController.m */; };
+		CD05D26C133718050042C1F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D26B133718050042C1F2 /* MapKit.framework */; };
+		CD05D27913371B4B0042C1F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D27813371B4B0042C1F2 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,10 @@
 		CD05D22A133716280042C1F2 /* FDCurlViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCurlViewControl.m; sourceTree = "<group>"; };
 		CD05D264133717260042C1F2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CD05D265133717260042C1F2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CD05D268133717D20042C1F2 /* CurlMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlMapViewController.h; sourceTree = "<group>"; };
+		CD05D269133717D20042C1F2 /* CurlMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlMapViewController.m; sourceTree = "<group>"; };
+		CD05D26B133718050042C1F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD05D27813371B4B0042C1F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				CD05D26C133718050042C1F2 /* MapKit.framework in Frameworks */,
+				CD05D27913371B4B0042C1F2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +117,8 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				CD05D26B133718050042C1F2 /* MapKit.framework */,
+				CD05D27813371B4B0042C1F2 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				CD05D1EB133716280042C1F2 /* FDCurlViewControl */,
+				CD05D268133717D20042C1F2 /* CurlMapViewController.h */,
+				CD05D269133717D20042C1F2 /* CurlMapViewController.m */,
 			);
 			name = "Curl View";
 			sourceTree = "<group>";
@@ -202,6 +215,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */,
 				CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */,
+				CD05D26A133717D20042C1F2 /* CurlMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +257,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -256,9 +272,11 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

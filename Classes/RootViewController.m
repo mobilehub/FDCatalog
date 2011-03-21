@@ -27,6 +27,7 @@
 //
 
 #import "RootViewController.h"
+#import "CurlMapViewController.h"
 
 @implementation RootViewController
 
@@ -58,10 +59,12 @@
 	self = [super initWithStyle:UITableViewStylePlain];
 	
 	if (self) {
+		self.title = NSLocalizedString(@"FDCatalog", nil);
+		
 		self.rows = [NSArray arrayWithObjects:
 					 [NSDictionary dictionaryWithObjectsAndKeys:
-					  @"FDCurlViewButton", @"title",
-					  @"loadCurlViewButtonSample", @"selectorString",
+					  @"FDCurlViewControl", @"title",
+					  @"loadCurlViewControlSample", @"selectorString",
 					  nil],
 					 [NSDictionary dictionaryWithObjectsAndKeys:
 					  @"FDSpeechBubble", @"title",
@@ -127,8 +130,10 @@
 
 #pragma mark -
 #pragma mark cells methods
-- (void)loadCurlViewButtonSample {
-
+- (void)loadCurlViewControlSample {
+	CurlMapViewController *viewController = [[CurlMapViewController alloc] init];
+	[self.navigationController pushViewController:viewController animated:YES];
+	[viewController release];
 }
 
 - (void)loadSpeechBubbleSample {
