@@ -32,6 +32,7 @@
 @implementation AppDelegate
 
 @synthesize window = window_;
+@synthesize navigationController = navigationController_;
 @synthesize rootViewController = rootViewController_;
 
 #pragma mark -
@@ -45,6 +46,7 @@
 
 - (void)dealloc {
     [self setRootViewController:nil];
+	[self setNavigationController:nil];
     [self setWindow:nil];
 	 
     [super dealloc];
@@ -63,7 +65,12 @@
 	RootViewController *rootViewController = [[RootViewController alloc] init];
 	self.rootViewController = rootViewController;
 	[rootViewController release];
-    self.window.rootViewController = self.rootViewController;
+	
+	UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.rootViewController];
+	self.navigationController = navigationController;
+    self.window.rootViewController = navigationController;
+	[navigationController release];
+	
     [self.window makeKeyAndVisible];
 
     return YES;

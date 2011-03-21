@@ -32,10 +32,12 @@
 
 @interface AppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window_;
+	UINavigationController *navigationController_;
     RootViewController *rootViewController_;
 }
 
 @property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, retain) UINavigationController *navigationController;
 @property (nonatomic, retain) RootViewController *rootViewController;
 
 @end
