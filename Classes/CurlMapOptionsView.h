@@ -27,19 +27,26 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CurlMapOptionsView.h"
 
 @class MKMapView;
-@class FDCurlViewControl;
+@protocol CurlMapOptionsViewDelegate;
 
-@interface CurlMapViewController : UIViewController <CurlMapOptionsViewDelegate> {
+@interface CurlMapOptionsView : UIView {
+	UISegmentedControl *segmentedControl_;
+	CGFloat paddingTop_;
 	MKMapView *mapView_;
-	CurlMapOptionsView *optionsView_;
-	FDCurlViewControl *curlButton_;
+	id <CurlMapOptionsViewDelegate> delegate_;
 }
 
+@property (nonatomic, retain) UISegmentedControl *segmentedControl;
+@property (nonatomic, assign) CGFloat paddingTop;
 @property (nonatomic, retain) MKMapView *mapView;
-@property (nonatomic, retain) CurlMapOptionsView *optionsView;
-@property (nonatomic, retain) FDCurlViewControl *curlButton;
+@property (nonatomic, assign) id <CurlMapOptionsViewDelegate> delegate;
+
+@end
+
+@protocol CurlMapOptionsViewDelegate <NSObject>
+
+- (void)curlMapOptionsViewDidCaptureTouchOnPaddingRegion:(CurlMapOptionsView *)curlMapOptionsView;
 
 @end

@@ -19,6 +19,7 @@
 		CD05D26A133717D20042C1F2 /* CurlMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D269133717D20042C1F2 /* CurlMapViewController.m */; };
 		CD05D26C133718050042C1F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D26B133718050042C1F2 /* MapKit.framework */; };
 		CD05D27913371B4B0042C1F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D27813371B4B0042C1F2 /* QuartzCore.framework */; };
+		CD05D3A31337284B0042C1F2 /* CurlMapOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D3A21337284B0042C1F2 /* CurlMapOptionsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		CD05D269133717D20042C1F2 /* CurlMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlMapViewController.m; sourceTree = "<group>"; };
 		CD05D26B133718050042C1F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CD05D27813371B4B0042C1F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD05D3A11337284B0042C1F2 /* CurlMapOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlMapOptionsView.h; sourceTree = "<group>"; };
+		CD05D3A21337284B0042C1F2 /* CurlMapOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlMapOptionsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				CD05D1EB133716280042C1F2 /* FDCurlViewControl */,
 				CD05D268133717D20042C1F2 /* CurlMapViewController.h */,
 				CD05D269133717D20042C1F2 /* CurlMapViewController.m */,
+				CD05D3A11337284B0042C1F2 /* CurlMapOptionsView.h */,
+				CD05D3A21337284B0042C1F2 /* CurlMapOptionsView.m */,
 			);
 			name = "Curl View";
 			sourceTree = "<group>";
@@ -216,6 +221,7 @@
 				28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */,
 				CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */,
 				CD05D26A133717D20042C1F2 /* CurlMapViewController.m in Sources */,
+				CD05D3A31337284B0042C1F2 /* CurlMapOptionsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
