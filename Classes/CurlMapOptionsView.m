@@ -57,6 +57,8 @@ static CGFloat const kOffset = 10.0f;
 												 NSLocalizedString(@"Satelite", nil),
 												 NSLocalizedString(@"Hybrid", nil),
 												 nil]];
+		[segmentedControl setSegmentedControlStyle:UISegmentedControlStyleBar];
+		[segmentedControl setTintColor:self.backgroundColor];
 		[segmentedControl setSelectedSegmentIndex:0];
 		[segmentedControl addTarget:self
 							 action:@selector(changeMapViewType)
