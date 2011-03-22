@@ -20,6 +20,12 @@
 		CD05D26C133718050042C1F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D26B133718050042C1F2 /* MapKit.framework */; };
 		CD05D27913371B4B0042C1F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D27813371B4B0042C1F2 /* QuartzCore.framework */; };
 		CD05D3A31337284B0042C1F2 /* CurlMapOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D3A21337284B0042C1F2 /* CurlMapOptionsView.m */; };
+		CD05D3DB133831680042C1F2 /* Default-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3D8133831680042C1F2 /* Default-iPad.png */; };
+		CD05D3DC133831680042C1F2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3D9133831680042C1F2 /* Default@2x.png */; };
+		CD05D3DD133831680042C1F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3DA133831680042C1F2 /* Default.png */; };
+		CD05D3E7133832710042C1F2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E4133832710042C1F2 /* Icon-72.png */; };
+		CD05D3E8133832710042C1F2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E5133832710042C1F2 /* Icon@2x.png */; };
+		CD05D3E9133832710042C1F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E6133832710042C1F2 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		CD05D27813371B4B0042C1F2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CD05D3A11337284B0042C1F2 /* CurlMapOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlMapOptionsView.h; sourceTree = "<group>"; };
 		CD05D3A21337284B0042C1F2 /* CurlMapOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlMapOptionsView.m; sourceTree = "<group>"; };
+		CD05D3D8133831680042C1F2 /* Default-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-iPad.png"; sourceTree = "<group>"; };
+		CD05D3D9133831680042C1F2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD05D3DA133831680042C1F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD05D3E4133832710042C1F2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		CD05D3E5133832710042C1F2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		CD05D3E6133832710042C1F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,12 @@
 				CD05D264133717260042C1F2 /* LICENSE */,
 				CD05D265133717260042C1F2 /* README */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				CD05D3D8133831680042C1F2 /* Default-iPad.png */,
+				CD05D3D9133831680042C1F2 /* Default@2x.png */,
+				CD05D3DA133831680042C1F2 /* Default.png */,
+				CD05D3E4133832710042C1F2 /* Icon-72.png */,
+				CD05D3E5133832710042C1F2 /* Icon@2x.png */,
+				CD05D3E6133832710042C1F2 /* Icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -206,6 +224,12 @@
 			files = (
 				CD05D266133717260042C1F2 /* LICENSE in Resources */,
 				CD05D267133717260042C1F2 /* README in Resources */,
+				CD05D3DB133831680042C1F2 /* Default-iPad.png in Resources */,
+				CD05D3DC133831680042C1F2 /* Default@2x.png in Resources */,
+				CD05D3DD133831680042C1F2 /* Default.png in Resources */,
+				CD05D3E7133832710042C1F2 /* Icon-72.png in Resources */,
+				CD05D3E8133832710042C1F2 /* Icon@2x.png in Resources */,
+				CD05D3E9133832710042C1F2 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
