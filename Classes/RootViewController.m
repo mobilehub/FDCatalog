@@ -66,10 +66,10 @@
 					  @"FDCurlViewControl", @"title",
 					  @"loadCurlViewControlSample", @"selectorString",
 					  nil],
-					 [NSDictionary dictionaryWithObjectsAndKeys:
-					  @"FDSpeechBubble", @"title",
-					  @"loadSpeechBubbleSample", @"selectorString",
-					  nil],
+					 //[NSDictionary dictionaryWithObjectsAndKeys:
+//					  @"FDSpeechBubble", @"title",
+//					  @"loadSpeechBubbleSample", @"selectorString",
+//					  nil],
 					 nil];
 	}
 	
