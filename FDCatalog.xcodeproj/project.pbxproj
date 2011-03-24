@@ -15,7 +15,6 @@
 		28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RootViewController.m */; };
 		CD05D251133716280042C1F2 /* FDCurlViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D22A133716280042C1F2 /* FDCurlViewControl.m */; };
 		CD05D266133717260042C1F2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CD05D264133717260042C1F2 /* LICENSE */; };
-		CD05D267133717260042C1F2 /* README in Resources */ = {isa = PBXBuildFile; fileRef = CD05D265133717260042C1F2 /* README */; };
 		CD05D26A133717D20042C1F2 /* CurlMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05D269133717D20042C1F2 /* CurlMapViewController.m */; };
 		CD05D26C133718050042C1F2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D26B133718050042C1F2 /* MapKit.framework */; };
 		CD05D27913371B4B0042C1F2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD05D27813371B4B0042C1F2 /* QuartzCore.framework */; };
@@ -26,6 +25,7 @@
 		CD05D3E7133832710042C1F2 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E4133832710042C1F2 /* Icon-72.png */; };
 		CD05D3E8133832710042C1F2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E5133832710042C1F2 /* Icon@2x.png */; };
 		CD05D3E9133832710042C1F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05D3E6133832710042C1F2 /* Icon.png */; };
+		CDECE2F9133AFFAF00D0A56A /* README.mdown in Resources */ = {isa = PBXBuildFile; fileRef = CDECE2F8133AFFAF00D0A56A /* README.mdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		CD05D229133716280042C1F2 /* FDCurlViewControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCurlViewControl.h; sourceTree = "<group>"; };
 		CD05D22A133716280042C1F2 /* FDCurlViewControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCurlViewControl.m; sourceTree = "<group>"; };
 		CD05D264133717260042C1F2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		CD05D265133717260042C1F2 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		CD05D268133717D20042C1F2 /* CurlMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlMapViewController.h; sourceTree = "<group>"; };
 		CD05D269133717D20042C1F2 /* CurlMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurlMapViewController.m; sourceTree = "<group>"; };
 		CD05D26B133718050042C1F2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +55,7 @@
 		CD05D3E4133832710042C1F2 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		CD05D3E5133832710042C1F2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		CD05D3E6133832710042C1F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CDECE2F8133AFFAF00D0A56A /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.mdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CDECE2F8133AFFAF00D0A56A /* README.mdown */,
 				CD05D264133717260042C1F2 /* LICENSE */,
-				CD05D265133717260042C1F2 /* README */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				CD05D3D8133831680042C1F2 /* Default-iPad.png */,
 				CD05D3D9133831680042C1F2 /* Default@2x.png */,
@@ -223,13 +223,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD05D266133717260042C1F2 /* LICENSE in Resources */,
-				CD05D267133717260042C1F2 /* README in Resources */,
 				CD05D3DB133831680042C1F2 /* Default-iPad.png in Resources */,
 				CD05D3DC133831680042C1F2 /* Default@2x.png in Resources */,
 				CD05D3DD133831680042C1F2 /* Default.png in Resources */,
 				CD05D3E7133832710042C1F2 /* Icon-72.png in Resources */,
 				CD05D3E8133832710042C1F2 /* Icon@2x.png in Resources */,
 				CD05D3E9133832710042C1F2 /* Icon.png in Resources */,
+				CDECE2F9133AFFAF00D0A56A /* README.mdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

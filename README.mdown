@@ -7,7 +7,11 @@ License
 =======
 
 The new BSD license
+  
+Samples
+=======
 
+* [FDCurlViewControl][]
 
 Troubleshooting
 ===============
@@ -15,10 +19,8 @@ Troubleshooting
 	git submodule update --init --recursive
 
   This will pull all of the other FD projects from github which FDCatalog is demonstrating.
-  
-Samples
-=======
 
-	* [FDCurlViewControl][]
+
+
 
 [FDCurlViewControl]: https://github.com/FairfaxMobile/FDCurlViewControl
