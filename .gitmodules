@@ -1,0 +1,3 @@
+[submodule "lib/FDCurlViewControl"]
+	path = lib/FDCurlViewControl
+	url = git://github.com/FairfaxMobile/FDCurlViewControl.git
